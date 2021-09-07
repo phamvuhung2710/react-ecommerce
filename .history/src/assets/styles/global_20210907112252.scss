@@ -129,14 +129,13 @@ svg {
   font-weight: 700;
   left:265px;
   padding-top: 14px !important;
-  width: fit-content;
-  height: auto;
 }
 .Toastify__toast--error::before {
   content : url('../../assets/svg/error.svg');
   position:relative;
   z-index:100000;
   left:12px;
+  top:12px;
   width: 24px;
   height: 24px;
   margin-right: 5px;
@@ -147,14 +146,13 @@ svg {
   background: #ebf5ff !important;
   color: rgb(44, 204, 255) !important;
   font-family: $font, sans-serif;
-  display: flex;
-  align-items: center;
 }
 .Toastify__toast--success::before {
   content : url('../../assets/svg/success.svg');
   position:relative;
   z-index:100000;
   left:12px;
+  top:12px;
   width: 24px;
   height: 24px;
   margin-right: 5px;
@@ -168,7 +166,6 @@ svg {
   left:265px;
   padding-top: 14px !important;
   width: fit-content;
-  height: auto;
 }
 .Toastify__toast--warning {
   border: 1px solid rgb(255, 205, 43) !important;
@@ -199,7 +196,6 @@ svg {
   left:265px;
   padding-top: 14px !important;
   width: fit-content;
-  height: auto;
 }
 .Toastify__toast-body {
   // border-radius: 5px !important;

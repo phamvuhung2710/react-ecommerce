@@ -51,10 +51,13 @@ function Profile(props) {
     }
     try {
       const res = await dispatch(updateMe(body)).then(unwrapResult)
-      toast.success(res.message, {
-        position: 'top-center',
-        autoClose: 40000
-      })
+      toast.success(
+        'Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem ',
+        {
+          position: 'top-center',
+          autoClose: 40000
+        }
+      )
     } catch (error) {
       if (error.status === 422) {
         for (const key in error.data) {

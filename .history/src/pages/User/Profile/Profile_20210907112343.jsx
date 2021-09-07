@@ -51,7 +51,7 @@ function Profile(props) {
     }
     try {
       const res = await dispatch(updateMe(body)).then(unwrapResult)
-      toast.success(res.message, {
+      toast.success('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', {
         position: 'top-center',
         autoClose: 40000
       })

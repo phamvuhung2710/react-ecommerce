@@ -53,7 +53,7 @@ function Profile(props) {
       const res = await dispatch(updateMe(body)).then(unwrapResult)
       toast.success(res.message, {
         position: 'top-center',
-        autoClose: 40000
+        autoClose: 4000
       })
     } catch (error) {
       if (error.status === 422) {
